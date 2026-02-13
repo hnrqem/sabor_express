@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Sabor Express</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>🍽 Sabor Express</h1>
+        <p>Gerenciamento de Restaurantes</p>
+    </header>
+
+    <main class="container">
+
+        <!-- Cadastro -->
+        <section class="card">
+            <h2>Cadastrar Restaurante</h2>
+            <form>
+                <input type="text" placeholder="Nome do restaurante" required>
+                <input type="text" placeholder="Categoria" required>
+                <button type="submit" class="btn-primary">Cadastrar</button>
+            </form>
+        </section>
+
+        <!-- Lista -->
+        <section class="card">
+            <h2>Restaurantes Cadastrados</h2>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Categoria</th>
+                        <th>Status</th>
+                        <th>Ação</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Praça</td>
+                        <td>Japonesa</td>
+                        <td><span class="status-off">Desativado</span></td>
+                        <td><button class="btn-toggle">Ativar</button></td>
+                    </tr>
+                    <tr>
+                        <td>Pizza Suprema</td>
+                        <td>Italiana</td>
+                        <td><span class="status-on">Ativo</span></td>
+                        <td><button class="btn-toggle">Desativar</button></td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </section>
+
+    </main>
+
+</body>
+</html>
