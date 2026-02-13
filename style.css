@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #1e1e2f, #2b2b45);
+    color: white;
+    min-height: 100vh;
+}
+
+header {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #ff9800;
+}
+
+header p {
+    opacity: 0.8;
+}
+
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    display: grid;
+    gap: 30px;
+    padding-bottom: 40px;
+}
+
+.card {
+    background: #2f2f4a;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0px 10px 25px rgba(0,0,0,0.4);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #ff9800;
+}
+
+/* Form */
+
+form {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+}
+
+button {
+    padding: 10px 18px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+/* Botões */
+
+.btn-primary {
+    background-color: #ff9800;
+    color: black;
+}
+
+.btn-primary:hover {
+    background-color: #ffa726;
+}
+
+.btn-toggle {
+    background-color: #4caf50;
+    color: white;
+}
+
+.btn-toggle:hover {
+    background-color: #66bb6a;
+}
+
+/* Tabela */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #3c3c5c;
+}
+
+tr:nth-child(even) {
+    background-color: #38385a;
+}
+
+/* Status */
+
+.status-on {
+    color: #4caf50;
+    font-weight: bold;
+}
+
+.status-off {
+    color: #f44336;
+    font-weight: bold;
+}
