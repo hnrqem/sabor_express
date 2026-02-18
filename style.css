@@ -51,7 +51,6 @@ h2 {
     color: #ff9800;
 }
 
-/* Form */
 
 form {
     display: flex;
@@ -76,7 +75,7 @@ button {
     transition: 0.3s;
 }
 
-/* Botões */
+
 
 .btn-primary {
     background-color: #ff9800;
@@ -96,7 +95,7 @@ button {
     background-color: #66bb6a;
 }
 
-/* Tabela */
+
 
 table {
     width: 100%;
@@ -116,7 +115,7 @@ tr:nth-child(even) {
     background-color: #38385a;
 }
 
-/* Status */
+
 
 .status-on {
     color: #4caf50;
